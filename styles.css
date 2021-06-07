@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin-left: 3px;
+}
+
+.content p {
+    text-indent: 2em;
+}
+
+#quiz {
+    margin-left: 3px;
+}
+
+#submit {
+    margin: 30px 0px 20px 80px;
+}
+
+.check {
+    color: rgb(62, 216, 24);
+    font-size: 1.5em;
+}
+
+.cross {
+    color: rgb(247, 20, 20);
+    font-size: 1.5em;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 4em;
+}
+
+.nav {
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    padding: 1%;
+}
+
+.nav a {
+    color: white;
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.main-header {
+    background-image: url("Images/Sky.jpg");
+    background-size: cover;
+    color: #DAAD86;
+    padding-bottom: 20px;
+}
+
+.references {
+    /* border-top: 1px solid rgba(0, 0, 0, 0.4); */
+    background-color: #659DBD;
+    padding-top: 1%;
+}
+
+.references p {
+    text-indent: -4em;
+    padding-left: 4em;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.ref-title {
+    text-align: center;
+}

@@ -66,6 +66,28 @@ input {
     bottom: 10px;
 }
 
+.kar2-image {
+    border-radius: 33.3%;
+    float: right;
+    position: relative;
+    left: 20px;
+}
+
+.echo-abnormal-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.echo-patient-image {
+    width: 400px;
+    float: right;
+    border-radius: 33.3%;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
 .symptoms-image {
     width: 400px;
     float: right;
@@ -73,15 +95,49 @@ input {
     bottom: 90px;
 }
 
+.school-image {
+    border-radius: 33.3%;
+    width: 400px;
+    float: right;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+.celiac-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.tpv1-image {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+.tpv2-image {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+.tpv-images {
+    text-align: center;
+}
+
 .symptoms-content {
     margin-bottom: 70px;
 }
 
 .elderly-image {
+    border-radius: 33.3%;
     width: 400px;
     float: right;
     position: relative;
-    /* bottom: 90px; */
+    left: 20px;
 }
 
 .main-title {

@@ -1,4 +1,4 @@
-var answers = ["mongolism", "nondisjunction", "mom", "celiac disease", "false", "60", "true", "echocardiogram", "karyotype", "false"];
+var answers = ["mongolism", "nondisjunction", "mom", "celiac disease", "false", "60", "true", "echocardiogram", "karyotype", "true"];
 var correspond = ["INDEX", "SCIENCE", "SCIENCE", "IMPACTS", "SCIENCE", "FUTURE", "TECHNOLOGIES", "TECHNOLOGIES", "TECHNOLOGIES", "FUTURE"]
 
 
@@ -35,7 +35,7 @@ function compareResults() {
         }
     }
     let markDisplay = document.createElement('h3');
-    markDisplay.innerHTML = "All done! You got " + correctQuestions + "/" + totalQuestions + "(" + (correctQuestions / totalQuestions) + "%)";
+    markDisplay.innerHTML = "All done! You got " + correctQuestions + "/" + totalQuestions + " (" + (correctQuestions / totalQuestions * 100) + "%)";
     markDisplay.classList.add('check')
     let quiz = document.getElementById('student-quiz');
     quiz.appendChild(markDisplay);
